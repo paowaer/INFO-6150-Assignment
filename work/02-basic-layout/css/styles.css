@@ -1,0 +1,113 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+ }
+
+#homepage {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "header header"
+   "local-menu main"
+   "footer footer";
+  grid-template-rows:auto auto auto;
+}
+
+header {
+  grid-area: header;
+}
+
+ /* Style the navigation menu */
+ .primary-nav {
+  background-color: plum; /* Set the background color for the menu */  
+}
+ 
+ .primary-nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Set the width to 100% of the viewport width */
+ }
+ 
+ .primary-nav ul li {
+  text-align: center;
+ }
+ 
+ .primary-nav ul li a {
+  color: blue; /* Set the color of the links to black */
+  margin: 0px; /* Add margin to separate the links */
+  padding: 10px;
+  display: inline-block; /* Set <a> elements to display inline */
+  cursor: pointer; /* Change cursor to pointer on hover */
+ }
+ 
+ /* Change color on hover */
+ .primary-nav ul li a:hover {
+  background-color: rebeccapurple;
+  color: white; /* Change color to rebeccapurple on hover */
+  
+}
+ 
+ /* Style the local menu */
+ .local-menu {
+  grid-area: local-menu;
+  margin: 0px;
+  display: flex;
+  background-color: pink; /* Set the background color for the local menu */
+  padding-top: 1rem;
+  padding-left: 10px; /* Add padding to the local menu */
+  border-right: 1px solid black;
+}
+ 
+ .local-menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+ }
+ 
+ .local-menu ul li {
+  margin-bottom: 5px;
+ }
+ 
+ .local-menu ul li a {
+  color: blue; /* Set the color of the links to black */
+  width: 100%;
+  margin-bottom:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block; /* Set <a> elements to display inline */
+  cursor: pointer; /* Change cursor to pointer on hover */
+ }
+ 
+ /* Change color on hover */
+ .local-menu ul li a:hover {
+  background-color: plum;
+ }
+ 
+ /* Style the main content */
+ main {
+  grid-area: main;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: pink; /* Set the background color for the main content */
+ }
+ 
+ /* Style the main paragraphs */
+ main p {
+  margin-bottom: 0px; /* Add margin to separate paragraphs */
+ }
+ 
+
+ footer {
+  grid-area: footer;
+  background-color: plum; /* Set the background color for the footer */
+  color: black; /* Set the font color to black */
+  padding: 10px;
+  text-align: left; /* Align the text to the left */
+}
