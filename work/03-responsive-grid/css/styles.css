@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    background-color: papayawhip;
+    color: black;
+
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.header {
+    display: flex;
+    background-color: burlywood;
+
+    padding: 1rem;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1rem;
+    padding-bottom: 0;
+
+    list-style-type: none;
+}
+
+.main {
+    padding: 1rem;
+}
+
+.cards {
+    display: grid;
+    
+    gap: 2rem;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 2rem;
+
+    background-color: white;
+}
+
+.footer {
+    background-color: burlywood;
+
+    padding: 1rem;
+}
+
+.footer__link {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.footer__item {
+    grid-column: span 12;
+    text-align: center;
+}
+
+@media (min-width: 50rem) {
+    .app-wrapper {
+        grid-template-areas: 
+        "header header"
+        "menu main"
+        "footer footer";
+        grid-template-columns: auto 1fr;
+    }
+    
+    .header {
+        grid-area: header;
+    }
+
+    .menu {
+        grid-area: menu;
+    }
+
+    .menu__list {
+        flex-direction: column;
+
+        list-style-type: none;
+    }
+
+    .main {
+        grid-area: main;
+        
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 2rem;
+    }
+
+    .card {
+        grid-column: span 4;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+
+        border: 1px solid black;
+        border-radius: 16px;
+        padding: 1rem;
+
+        background-color: white;
+    }
+
+    .card__link {
+        border-radius: 8px;
+        border: 1px solid black;
+        padding: 8px;
+        margin-top: auto;
+
+        text-decoration: none;
+        color: black;
+        background-color: cadetblue;
+        
+    }
+
+    .footer {
+        grid-area: footer;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+
+    .footer__item {
+        grid-column: span 4;
+    }
+}
