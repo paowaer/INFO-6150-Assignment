@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header__title">Welcome to register</h1>
+        </header>
+        <main class="main">
+            <p class="main__text">Please fill in the form below:</p>
+            <p class="main__required-text"><span class="required">*</span>is required</p>
+            <form action="/submit" class="register">
+                <label for="name" class="register__label"><span class="required">*</span>name</label>
+                <input name="name" id="name" class="register__input" placeholder="Please Enter Name" required pattern="\{3,15}" title="3-15 character"/>
+                <label for="email" class="register__label"><span class="required">*</span>email</label>
+                <input name="email" id="email" class="register__input" type="email" required/>
+                <label for="tier" class="register__label"><span class="required">*</span>Tier</label>
+                <select name="tier" id="tier" class="register__input" required>
+                    <option disabled selected value="">Please select</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tier</option>
+                </select>
+
+                <div class="register__annoy-me">
+                    <label class="register__annoy-me-legend" name="annoy-me" ><span class="required">*</span>Do you want us to send you annoying emails?</label>
+                    <input id="yes" name="annoy-me" value="yes" type="checkbox" checked required>
+                </div>
+                
+                <button type="submit">Register</button>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">Please see <a href="lol.html">privacy policy</a> here.</p>
+        </footer>
+    </body>
+</html>
