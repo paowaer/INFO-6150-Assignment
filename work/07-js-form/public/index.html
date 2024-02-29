@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validation</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header__title">Welcome to register</h1>
+        </header>
+        <main class="main">
+            <p class="main__text">Please fill in the form below:</p>
+            <p class="main__required-text"><span class="required">*</span>is required</p>
+            <form class="register" action="/register" method="POST">
+
+                <label class="register__label">
+                    <span class="register__name-label"><span class="required">*</span>Name</span>
+                    <span class="register__error register__error--name"></span>
+                    <input name="name" class="register__name" placeholder="Please Enter Name"/>
+                </label>
+                
+                <label class="register__label">
+                    <span class="register__email-label"><span class="required">*</span>Email</span>
+                    <span class="register__error register__error--email"></span>
+                    <input name="email" type="text" class="register__email" placeholder="Please Enter Email"/>
+                </label>
+                
+                <label class="register__label">
+                    <span class="register__confirm-label"><span class="required">*</span>Confirm Email</span>
+                    <span class="register__error register__error--confirm"></span>
+                    <input name="confirm" type="text" class="register__confirm"/>
+                </label>
+
+                <div class="register__wants-spam">
+                    <label class="register__label">
+                        <span class="register__spam">Do you want spam?</span>
+                    </label>
+                    <input id="yes" name="wants-spam" value="yes" type="checkbox" checked>
+                </div>
+
+                <select name="tier" class="register__input">
+                    <option disabled selected value="">Please select</option>
+                    <option value="1">Spam me monthly!</option>
+                    <option value="2">Spam me weekly!</option>
+                    <option value="3">Spam me everyday!</option>
+                </select>
+                
+                <button type="submit" class="register__submit">Register</button>
+                <span class="register__error register__error--form"></span>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">We have no privacy policy here.</p>
+        </footer>
+    <script src="validation.js"></script>
+    </body>
+</html>
