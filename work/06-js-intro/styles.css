@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    display: flex;
+    background-color: #F6F7F8;
+    color: #4F4789;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.header {
+    background-color: #4F4789;
+    color: #F6F7F8;
+
+    padding: 1rem;
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.menu {
+    justify-content: space-around;
+    background-color: #4F4789;
+    color: #F6F7F8;
+
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.menu__item {
+    display: grid;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__toggle {
+    border: none;
+
+    background-color: #4F4789;
+    color: #F6F7F8;
+
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu__submenu{
+    max-height: 0;
+    position: absolute;
+    overflow: hidden;
+    background-color: #4F4789;
+}
+
+.menu__submenu.active {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    max-height: inherit;
+    margin-top: 30px;
+}
+
+.submenu__item {
+    padding: 0.2rem;
+    text-align: left;
+
+    list-style-type: none;
+    :hover {
+        background-color: #FCE762;
+    }
+}
+
+.submenu__link {
+    color: #F6F7F8;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.main__title {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    grid-column: span 4;
+
+    border: 1px solid #4F4789;
+    border-radius: 16px;
+    padding: 2rem;
+
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card__pic {
+    display: block;
+    width: 100%;
+    min-width: 50px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #4F4789;
+    color: #F6F7F8;
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer__item {
+    text-align: center;
+}
