@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+    <div class="app-wrapper">
+        <header class="header">
+            <a class="skip-to-content-link" href="#main">Skip to Content</a>
+            <a href="index.html"><img class="header__pic" src="images\andriyko-podilnyk-RCfi7vgJjUY-unsplash.jpg" alt="This is a Cat walking towards to you"></a>
+            <h1 class="header__title">Cats Power the Internet</h1>
+            <nav class="header__nav">
+                <button class="burger-button">
+                    <div class="burger-icon"></div>
+                </button>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="index.html">Home</a> 
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="cats.html">Cats</a>       
+                    </li>
+
+                    <li class="menu__item">
+                        <a href=#>CatEvents</a>       
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main" id="main">
+            <h2></h2>
+            <ul class="cards">
+                <li class="card">
+                    <h3 class="card__title">Jorts</h3>
+                    <img class="card__pic" src="images\raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="A cat wearing a sunglasses">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href=# class="card__link" aria-label="Subscribe for more to learn Jorts wearing a sunglasses">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <li class="card">
+                    <h3 class="card__title">Jean</h3>
+                    <img class="card__pic" src="images\sergey-semin-Y0WXj3xqJz0-unsplash.jpg" alt="A small kitten standing in front of you">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href=# class="card__link" aria-label="Subscribe for more to learn why Jean is standing in front of you">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <li class="card">
+                    <h3 class="card__title">Maru</h3>
+                    <img class="card__pic" src="images\the-lucky-neko-uePn9YCTCY0-unsplash.jpg" alt="Three cats lying in a row">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ipsam rerum consectetur. Nihil provident saepe fuga.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href="#" class="card__link" aria-label="Subscribe for more to learn who is Maru in them three">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <li class="card">
+                    <h3 class="card__title">Nyancat</h3>
+                    <img class="card__pic" src="images\tuqa-nabi-uhnZZUaTIOs-unsplash.jpg" alt="A cat sleeping on its hand">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa consequatur debitis quia, doloribus cupiditate.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href=# class="card__link" aria-label="Subscribe for more to learn how long Nyancat sleep in a day">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <li class="card">
+                    <h3 class="card__title">Grumpy Cat</h3>
+                    <img class="card__pic" src="images\loan-7AIDE8PrvA0-unsplash.jpg" alt="A cat yelling at you">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href=# class="card__link" aria-label="Subscribe for more to learn why Grumpy Cat is yelling at you">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <li class="card">
+                    <h3 class="card__title">Lil Bub</h3>
+                    <img class="card__pic" src="images\sincerely-media-4AwEap8Ii1o-unsplash.jpg" alt="A cat stretching himself">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, cupiditate?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <a href=# class="card__link" aria-label="Subscribe for more to learn why Lil Bub is stretching">Subscribe</a> adipisicing elit. Dolore.</p>
+                </li>
+
+                <dialog class="modal">
+                    <p class="modal__title">Subscribe to the Latest Mews!</p>
+                    <form class="subscribe" action="/subscribe" method="POST">                 
+                        <label class="subscribe__label" aria-label="This is the Email input area">
+                            <span class="subscribe__email-label">Email: <span class="required">*required</span></span>
+                            <input name="email" type="text" class="subscribe__email"/>
+                            <span class="subscribe__error subscribe__error--email"></span>
+                        </label> 
+                        <label class="subscribe__label" aria-label="This is the Email confirm area">
+                            <span class="subscribe__confirm-label">Confirm Email: <span class="required">*required</span></span>
+                            <input name="confirm" type="text" class="subscribe__confirm"/>
+                            <span class="subscribe__error subscribe__error--confirm"></span>
+                        </label>
+                    <div class="modal__bottons">
+                    <button type="submit" class="subscribe__submit" aria-label="This is the subscribe button">Subscribe</button>
+                    <button class="close" aria-label="This is the cancel button">Cancel</button>
+                    </div>
+                    </form>
+                </dialog>
+            </ul>
+        </main>
+        <footer class="footer">
+            <ul class="footer__link">
+                <li class="footer__item"><a href="lolcats.html">Privacy Policy</a></li>
+                <li class="footer__item"><a href="lolcats.html">Work for Us</a></li>
+                <li class="footer__item"><a href="lolcats.html">Contact Us</a></li>
+                <li class="footer__item"><a href="lolcats.html">Social Media</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="dropdown&validation.js"></script>
+</body>
+</html>
+
+
