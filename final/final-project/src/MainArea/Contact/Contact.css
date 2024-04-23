@@ -1,0 +1,85 @@
+.Contact__title {
+  padding: 2rem;
+  margin: auto;
+  font-size: 1.5rem;
+  color: var(--color-page-text);
+  background-color: var(--color-page-bg);
+  text-align: center;
+}
+
+.Contact__text {
+  padding: 1rem;
+  margin: auto 1rem;
+  font-size: 1rem;
+  color: var(--color-page-text);
+  background-color: var(--color-page-bg);
+  text-align: center;
+}
+
+.thankyou {
+  padding: 2rem;
+  margin: auto;
+  font-size: 2rem;
+  color: var(--color-page-text);
+  background-color: var(--color-page-bg);
+  text-align: center;
+  font-weight: bold;
+}
+
+.Contact__button {
+  display: flex;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.Contact__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.Contact__form-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-size: 1rem;
+  margin-bottom: -3rem;
+}
+
+.Contact__form-note {
+  text-align: right;
+  padding: 0;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  color: red;
+}
+
+.Contact__form-field {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.Contact__form-required {
+  color: red;
+}
+
+.Contact__form-error {
+  color: red;
+}
+
+.Contact__form-field input,
+.Contact__form-field textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Contact__form-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-footer-bg);
+}
+
+.footer-nav__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav__item {
+  margin: 0 1rem;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  color: var(--color-footer-text);
+}
+
+.footer-nav__link:hover {
+  color: #007bff;
+}

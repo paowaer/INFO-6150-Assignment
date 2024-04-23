@@ -1,0 +1,163 @@
+
+The photos from Turkey file, as I lost my sd card so I download some samples from Unsplash under Unsplash license.
+
+License
+Unsplash visuals are made to be used freely. Our license reflects that.
+
+All images can be downloaded and used for free
+Commercial and non-commercial purposes
+No permission needed (though attribution is appreciated!)
+
+
+The images in this file as the followings are all from my own.
+
+file list: (owner: Junfeng Ouyang)
+final\final-project\src\image\1.png
+final\final-project\src\image\2.png
+final\final-project\src\image\3.png
+final\final-project\src\image\4.png
+final\final-project\src\image\5.png
+final\final-project\src\image\6.png
+final\final-project\src\image\7.png
+final\final-project\src\image\8.png
+final\final-project\src\image\9.png
+final\final-project\src\image\America\U.S\1.png
+final\final-project\src\image\America\U.S\2.png
+final\final-project\src\image\America\U.S\3.png
+final\final-project\src\image\America\U.S\4.png
+final\final-project\src\image\America\U.S\5.png
+final\final-project\src\image\America\U.S\6.png
+final\final-project\src\image\America\U.S\7.png
+final\final-project\src\image\America\U.S\8.png
+final\final-project\src\image\America\U.S\9.png
+final\final-project\src\image\America\U.S\10.png
+final\final-project\src\image\America\U.S\11.png
+final\final-project\src\image\America\U.S\12.png
+final\final-project\src\image\America\U.S\13.png
+final\final-project\src\image\America\U.S\14.png
+final\final-project\src\image\America\U.S\15.png
+final\final-project\src\image\America\Jamaica\1.png
+final\final-project\src\image\America\Jamaica\2.png
+final\final-project\src\image\America\Jamaica\3.png
+final\final-project\src\image\America\Jamaica\4.png
+final\final-project\src\image\America\Jamaica\5.png
+final\final-project\src\image\America\Jamaica\6.png
+final\final-project\src\image\America\Jamaica\7.png
+final\final-project\src\image\America\Jamaica\8.png
+final\final-project\src\image\America\Jamaica\9.png
+final\final-project\src\image\America\Jamaica\10.png
+final\final-project\src\image\America\Jamaica\11.png
+final\final-project\src\image\America\Jamaica\12.png
+final\final-project\src\image\America\Jamaica\13.png
+final\final-project\src\image\America\Jamaica\14.png
+final\final-project\src\image\America\Jamaica\15.png
+final\final-project\src\image\America\Cuba\1.png
+final\final-project\src\image\America\Cuba\2.png
+final\final-project\src\image\America\Cuba\3.png
+final\final-project\src\image\America\Cuba\4.png
+final\final-project\src\image\America\Cuba\5.png
+final\final-project\src\image\America\Cuba\6.png
+final\final-project\src\image\America\Cuba\7.png
+final\final-project\src\image\America\Cuba\8.png
+final\final-project\src\image\America\Cuba\9.png
+final\final-project\src\image\America\Cuba\10.png
+final\final-project\src\image\America\Cuba\11.png
+final\final-project\src\image\America\Cuba\12.png
+final\final-project\src\image\America\Cuba\13.png
+final\final-project\src\image\Asia\China\1.png
+final\final-project\src\image\Asia\China\2.png
+final\final-project\src\image\Asia\China\3.png
+final\final-project\src\image\Asia\China\4.png
+final\final-project\src\image\Asia\China\5.png
+final\final-project\src\image\Asia\China\6.png
+final\final-project\src\image\Asia\China\7.png
+final\final-project\src\image\Asia\China\8.png
+final\final-project\src\image\Asia\China\9.png
+final\final-project\src\image\Asia\China\10.png
+final\final-project\src\image\Asia\China\11.png
+final\final-project\src\image\Asia\China\12.png
+final\final-project\src\image\Asia\China\13.png
+final\final-project\src\image\Asia\China\14.png
+final\final-project\src\image\Asia\China\15.png
+final\final-project\src\image\Asia\China\16.png
+final\final-project\src\image\Asia\China\17.png
+final\final-project\src\image\Asia\China\18.png
+final\final-project\src\image\Asia\Japan\1.png
+final\final-project\src\image\Asia\Japan\2.png
+final\final-project\src\image\Asia\Japan\3.png
+final\final-project\src\image\Asia\Japan\4.png
+final\final-project\src\image\Asia\Japan\5.png
+final\final-project\src\image\Asia\Japan\6.png
+final\final-project\src\image\Asia\Japan\7.png
+final\final-project\src\image\Asia\Japan\8.png
+final\final-project\src\image\Asia\Japan\9.png
+final\final-project\src\image\Asia\Japan\10.png
+final\final-project\src\image\Asia\Japan\11.png
+final\final-project\src\image\Asia\Japan\12.png
+final\final-project\src\image\Asia\Japan\13.png
+final\final-project\src\image\Asia\Japan\14.png
+final\final-project\src\image\Asia\Japan\15.png
+final\final-project\src\image\Asia\Thailand\1.png
+final\final-project\src\image\Asia\Thailand\2.png
+final\final-project\src\image\Asia\Thailand\3.png
+final\final-project\src\image\Asia\Thailand\4.png
+final\final-project\src\image\Asia\Thailand\5.png
+final\final-project\src\image\Asia\Thailand\6.png
+final\final-project\src\image\Asia\Thailand\7.png
+final\final-project\src\image\Asia\Thailand\8.png
+final\final-project\src\image\Asia\Thailand\9.png
+final\final-project\src\image\Asia\Thailand\10.png
+final\final-project\src\image\Asia\Thailand\11.png
+final\final-project\src\image\Asia\Thailand\12.png
+final\final-project\src\image\Europe\France\1.png
+final\final-project\src\image\Europe\France\2.png
+final\final-project\src\image\Europe\France\3.png
+final\final-project\src\image\Europe\France\4.png
+final\final-project\src\image\Europe\France\5.png
+final\final-project\src\image\Europe\France\6.png
+final\final-project\src\image\Europe\France\7.png
+final\final-project\src\image\Europe\France\8.png
+final\final-project\src\image\Europe\France\9.png
+final\final-project\src\image\Europe\France\10.png
+final\final-project\src\image\Europe\France\11.png
+final\final-project\src\image\Europe\France\12.png
+final\final-project\src\image\Europe\France\13.png
+final\final-project\src\image\Europe\France\14.png
+final\final-project\src\image\Europe\Italy\1.png
+final\final-project\src\image\Europe\Italy\2.png
+final\final-project\src\image\Europe\Italy\3.png
+final\final-project\src\image\Europe\Italy\4.png
+final\final-project\src\image\Europe\Italy\5.png
+final\final-project\src\image\Europe\Italy\6.png
+final\final-project\src\image\Europe\Italy\7.png
+final\final-project\src\image\Europe\Italy\8.png
+final\final-project\src\image\Europe\Italy\9.png
+final\final-project\src\image\Europe\Italy\10.png
+final\final-project\src\image\Europe\Italy\11.png
+final\final-project\src\image\Europe\Italy\12.png
+final\final-project\src\image\Europe\Italy\13.png
+final\final-project\src\image\Europe\Italy\14.png
+final\final-project\src\image\Europe\Italy\15.png
+final\final-project\src\image\Europe\Italy\16.png
+final\final-project\src\image\Europe\Italy\17.png
+final\final-project\src\image\Europe\Italy\18.png
+final\final-project\src\image\Europe\Italy\19.png
+
+
+
+file list: (owner: Unsplash)
+final\final-project\src\image\Europe\Turkey\1.png  url: https://unsplash.com/photos/turkey-flag-on-pole-with-bell-uRnkbWnCElY
+final\final-project\src\image\Europe\Turkey\2.png  url: https://unsplash.com/photos/photo-of-assorted-color-air-balloon-lot-in-mid-air-during-daytime-bBF9e2UUh88
+final\final-project\src\image\Europe\Turkey\3.png   url: https://unsplash.com/photos/brown-and-blue-concrete-dome-building-kNSREmtaGOE
+final\final-project\src\image\Europe\Turkey\4.png   url: https://unsplash.com/photos/clear-chandelier-Ig4V0Xll9EY
+final\final-project\src\image\Europe\Turkey\5.png   url: https://unsplash.com/photos/city-buildings-near-body-of-water-during-daytime-WA1u0scVLZU
+final\final-project\src\image\Europe\Turkey\6.png   url: https://unsplash.com/photos/white-boat-on-sea-near-bridge-during-daytime-kQirS4dD-U0
+final\final-project\src\image\Europe\Turkey\7.png   url: https://unsplash.com/photos/brown-concrete-tower-under-blue-sky-during-daytime-977gIQVWI6A
+final\final-project\src\image\Europe\Turkey\8.png   url: https://unsplash.com/photos/brown-and-beige-castle-S43CFXMiWwM
+final\final-project\src\image\Europe\Turkey\9.png   url: https://unsplash.com/photos/red-tram-on-the-street-during-daytime-a071xQp8Xwo
+final\final-project\src\image\Europe\Turkey\10.png  url: https://unsplash.com/photos/people-walking-on-street-during-daytime-lCIPO1NTzh4
+final\final-project\src\image\Europe\Turkey\11.png  url: https://unsplash.com/photos/photo-of-assorted-color-air-balloon-lot-in-mid-air-during-daytime-bBF9e2UUh88
+final\final-project\src\image\Europe\Turkey\12.png  url: https://unsplash.com/photos/white-boat-on-sea-near-bridge-during-daytime-kQirS4dD-U0
+final\final-project\src\image\Europe\Turkey\13.png  url: https://unsplash.com/photos/red-tram-on-the-street-during-daytime-CNhSl2OPVJE
+final\final-project\src\image\Europe\Turkey\14.png  url: https://unsplash.com/photos/aerial-photography-of-houses-near-body-of-water-under-blue-and-white-sky-during-daytime-goBUFaEJars
+final\final-project\src\image\Europe\Turkey\15.png  URL: https://unsplash.com/photos/man-fishing-using-black-and-blue-fishing-rod-W2tB-er6jg8

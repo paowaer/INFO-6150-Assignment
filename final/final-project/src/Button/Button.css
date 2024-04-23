@@ -1,0 +1,24 @@
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.button-link {
+  border: none;
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button-link:hover {
+  color: #0056b3;
+}

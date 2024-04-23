@@ -1,0 +1,50 @@
+.about__panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "about__title about__title"
+    "about__text about__image";
+  margin: auto;
+  gap: 1rem;
+  padding: 0;
+  margin: 0 4rem;
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+  align-items: center;
+}
+
+.about__title {
+  grid-area: about__title;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about__text {
+  grid-area: about__text;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.about__image {
+  grid-area: about__image;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+@media (max-width: 40rem) {
+  .about__panel {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "about__title"
+      "about__text"
+      "about__image";
+  }
+
+  .about__image {
+    display: block;
+    justify-content: center;
+  }
+}
